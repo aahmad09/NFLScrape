@@ -1,3 +1,4 @@
 # NFLScrape
-This is the link for the data set we might use. 
-https://www.rdocumentation.org/packages/nflscrapR/versions/1.8.3 
+The goal of this project is to acquire NFL competition data from the internet, clean it, and use
+it to compute ratings
+
