@@ -67,8 +67,8 @@ Standings <- Standings %>%
   arrange(desc(ColleyRating))
 Standings
 
-
 ###Massey
+
 PD<-PF-PA
 M<-CM-diag(rep(2,length(teams)))
 M1<-M
