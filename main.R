@@ -80,7 +80,7 @@ Standings$MasseyRank<-rank(-Standings$Massey,ties.method = "min")
 Standings$PD<-PD
 
 ##PageRank
-s<-nrow(teams)
+s<-length(teams)
 GM<-adjmatrix
 D<-colSums(GM)
 dangling<-which(D==0)
